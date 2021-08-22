@@ -1,7 +1,7 @@
 .portfolio-items-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
 }
 .portfolio-item-wrapper{
     position: relative;
@@ -15,6 +15,7 @@
     background-repeat: no-repeat;
 }
 .title-subtitle-wrapper{
+    cursor: pointer;
     position: absolute;
     top:0px;
     display: flex;
@@ -28,15 +29,15 @@
 
 .title-subtitle-wrapper {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
     transition: 1s;
     color: transparent;
 }
-.title-subtitle-wrapper .subtitle-wrapper{
+.title-subtitle-wrapper .subtitle-wrapper a{
     transition: 1s ease-in;
     color: transparent;
 }
-.title-subtitle-wrapper:hover .title-wrapper{
+.title-subtitle-wrapper:hover .title-wrapper {
     transition: 1s ease-out;
     margin-bottom: 30px;
     font-weight: 400;
@@ -45,9 +46,9 @@
     font-family: 'Antic Slab';
     
 }
-.title-subtitle-wrapper:hover .subtitle-wrapper{
-    transition: 1s ease-in;
-    font-size: 15px;
+.title-subtitle-wrapper:hover .subtitle-wrapper a{
+    transition: 1s ease-out;
+    font-size: 20px;
     color: rgb(221, 221, 221);
 }
 .img-filter{
