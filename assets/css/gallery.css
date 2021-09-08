@@ -3,9 +3,20 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
+
 .portfolio-item-wrapper{
     position: relative;
 }
+
+/* .portfolio-item-wrapper:hover{
+    position: relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+} */
 
 .portfolio-image-wrapper{
     height: 250px;
@@ -14,6 +25,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .title-subtitle-wrapper{
     cursor: pointer;
     position: absolute;
